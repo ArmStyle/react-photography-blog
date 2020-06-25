@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 :root {
   --primaryColor: #af9a7d;
@@ -17,8 +18,14 @@
 }
 /* globals */
 .App {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .App {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 body {
   background: #e9eaed;
@@ -364,7 +371,7 @@ h6 {
 /* End Footer */
 /* Hero */
 .hero-container {
-  padding: 2rem;
+  padding: 0rem;
 }
 .hero-container p {
   color: var(--primaryColor);
@@ -410,10 +417,15 @@ h6 {
   object-fit: cover;
 }
 .sideImageWrapper {
+  text-align: center;
   width: 100%;
   padding: 3rem;
+  font-size: 0.7rem;
 }
 @media screen and (min-width: 768px) {
+  .hero-container {
+    padding: 2rem;
+  }
   .hero-content {
     display: flex;
     justify-content: space-between;
@@ -423,21 +435,18 @@ h6 {
     width: 40%;
   }
   .sideImageWrapper {
+    text-align: left;
     width: 60%;
+    font-size: 1rem;
   }
 }
 /* End Hero */
 /* Banner */
-.banner img {
-  height: 100%;
-  text-align: center;
+.banner {
   padding: 2rem;
-}
-@media screen and (min-width: 768px) {
-  .banner {
-    text-align: center;
-    padding: 2rem;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* End Banner */
 /* Slider */
