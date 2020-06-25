@@ -10,7 +10,7 @@ const Room = memo(({ room }) => {
     <article className="photo">
       <div className="img-container">
         <img src={images || defaultImg} alt="" />
-        <Link to={`/rooms/${title}`} className="btn-primary photo-link">
+        <Link to={`/post/${title}`} className="btn-primary photo-link">
           {title}
         </Link>
       </div>

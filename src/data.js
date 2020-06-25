@@ -16,6 +16,8 @@ export default [
     id: 1,
     title: "Sleeping Forest",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "Jan 1,2020",
     type: ["view", "alone", "star"],
     capacity: 1,
@@ -28,6 +30,8 @@ export default [
     id: 2,
     title: "Galaxia",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "Feb 3,2020",
     type: ["view", "alone", "star"],
     capacity: 1,
@@ -40,6 +44,8 @@ export default [
     id: 3,
     title: "Tree and Night",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "Mar 15,2020",
     type: ["view", "alone", "star"],
     capacity: 1,
@@ -53,6 +59,8 @@ export default [
     id: 4,
     title: "Snow Mountain",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "Apr 13,2020",
     type: ["view", "alone", "star"],
     capacity: 1,
@@ -65,6 +73,8 @@ export default [
     id: 5,
     title: "Autumm In Switzerland",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "May 5,2020",
     type: ["view", "alone", "star"],
     capacity: 1,
@@ -77,6 +87,8 @@ export default [
     id: 6,
     title: "live In Switzerland",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "Jun 26,2020",
     type: ["view", "alone", "star"],
     capacity: 1,
@@ -89,6 +101,8 @@ export default [
     id: 7,
     title: "Spring Road",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "Jul 17,2020",
     type: ["view", "alone", "star"],
     capacity: 1,
@@ -101,6 +115,8 @@ export default [
     id: 8,
     title: "Sakura Road",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "Aug 4,2020",
     type: ["view", "alone", "star"],
     capacity: 1,
@@ -113,6 +129,8 @@ export default [
     id: 9,
     title: "Autumm Road",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "Sep 29,2020",
     type: ["view", "alone", "star"],
     capacity: 1,
@@ -125,6 +143,8 @@ export default [
     id: 10,
     title: "City View",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "Oct 10,2020",
     type: ["view", "alone", "star"],
     capacity: 1,
@@ -137,6 +157,8 @@ export default [
     id: 11,
     title: "Water Reflection",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "Nov 11,2020",
     type: ["view", "alone", "star"],
     capacity: 1,
@@ -149,6 +171,8 @@ export default [
     id: 12,
     title: "Night City",
     author: "Unknown",
+    authorDetail:
+      "Lorem Ipsum is simply dummy text of the printing and typeset industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     date: "Dec 31,2020",
     type: ["view", "alone", "star"],
     capacity: 1,

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import data from "../data";
+import { Link } from "react-router-dom";
 
 export default class SlideImg extends Component {
   render() {
@@ -16,7 +17,9 @@ export default class SlideImg extends Component {
               <div key={index}>
                 <img src={item.images} alt="" />
                 <div className="sliderCenter">
-                  <h1>{item.title}</h1>
+                  <Link to={`/post/${item.title}`} className="btn-primary">
+                    <h1>{item.title}</h1>
+                  </Link>
                   <p>
                     {item.author} x {item.date}
                   </p>

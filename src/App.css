@@ -481,8 +481,112 @@ h6 {
 }
 .sliderCenter h1 {
   cursor: pointer;
+  overflow-y: hidden;
 }
 .sliderCenter p {
   color: var(--primaryColor);
 }
 /* End Slider */
+/* Post */
+.post-container {
+  padding: 0rem;
+  text-align: center;
+}
+.post-container p {
+  color: var(--primaryColor);
+  text-transform: uppercase;
+  margin: 0.5rem;
+  line-height: 1.5em;
+}
+.post-detail {
+  display: flex;
+}
+.post-container h2 {
+  padding: 1.5rem 0 1rem;
+  margin: 0;
+  letter-spacing: var(--mainSpacing);
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.post-container h3 {
+  color: var(--mainBlack);
+  overflow-y: hidden;
+}
+.post-container h4 {
+  color: var(--mainBlack);
+  overflow-y: hidden;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.post-container h5 {
+  color: #888888;
+  font-weight: lighter;
+  line-height: 1.75em;
+  padding-top: 3rem;
+  text-align: justify;
+}
+.post-container h6 {
+  color: #888888;
+  font-weight: lighter;
+  padding-top: 1rem;
+  text-align: justify;
+}
+.btn-post {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--mainBlack);
+  background: none;
+  padding: 0.4rem 0.9rem;
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+  border-style: solid;
+  border-left-style: none;
+  border-right-style: none;
+  font-size: small;
+}
+.mainPost {
+  width: 100%;
+}
+.mainPost img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+.sidePost {
+  text-align: center;
+  width: 100%;
+  padding: 3rem;
+  font-size: 0.7rem;
+}
+.sidePost img {
+  text-align: center;
+  width: 100%;
+  padding: 0.75rem;
+}
+@media screen and (min-width: 768px) {
+  .post-container {
+    padding: 2rem;
+    text-align: left;
+  }
+  .post-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .post-container h3 {
+    margin: 0;
+    color: var(--mainBlack);
+  }
+  .mainPost {
+    width: 70%;
+  }
+  .sidePost {
+    text-align: left;
+    width: 30%;
+    font-size: 1rem;
+  }
+}
+/* End Post */
