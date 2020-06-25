@@ -428,9 +428,16 @@ h6 {
 }
 /* End Hero */
 /* Banner */
-.banner {
+.banner img {
+  height: 100%;
   text-align: center;
-  width: 100%;
+  padding: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .banner {
+    text-align: center;
+    padding: 2rem;
+  }
 }
 /* End Banner */
 /* Slider */
