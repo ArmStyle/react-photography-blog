@@ -451,6 +451,34 @@ h6 {
 }
 /* End Banner */
 /* Slider */
+.test {
+  padding: 2rem 0;
+  height: 75%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.test h1 {
+  font-size: larger;
+}
+.test p {
+  font-size: small;
+}
+@media screen and (min-width: 768px) {
+  .test {
+    padding: 2rem;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .test h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+  }
+  .test p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+  }
+}
 .slider {
   text-align: center;
   background-color: var(--mainBlack);

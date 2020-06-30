@@ -42,7 +42,7 @@ export default class Post extends Component {
               </div>
               <img alt="" src={singlePost.images} />
               <h5>{singlePost.description}</h5>
-            </section>
+            </section> 
             <section className="sidePost">
               <h4>- PHOTOGRAPHER -</h4>
               <hr />

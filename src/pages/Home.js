@@ -6,7 +6,9 @@ import SlideImg from "../components/SlideImg";
 export default function Home() {
   return (
     <React.Fragment>
-      <SlideImg />
+      <div className="test">
+        <SlideImg />
+      </div>
       <Hero />
       <FeaturedRooms />
     </React.Fragment>

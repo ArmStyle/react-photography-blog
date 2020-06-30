@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Banner />
       <div className="App">
-        <Switch>
+        <Switch>z
           <Route exact path="/" component={Home} />
           <Route exact path="/post/:title" component={Post} />
 
