@@ -14,10 +14,9 @@ function App() {
       <Navbar />
       <Banner />
       <div className="App">
-        <Switch>z
+        <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/post/:title" component={Post} />
-
           {/* ไม่ต้องใส่ path ถ้าเกิด path มีข้อผิดพลาดจะมาที่หน้านี้ทันที */}
           {/* <Route component={Error} /> */}
         </Switch>

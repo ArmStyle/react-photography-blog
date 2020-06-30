@@ -444,11 +444,21 @@ h6 {
 /* End Hero */
 /* Banner */
 .banner {
-  padding: 2rem;
+  margin: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.banner img {
+  width: 256px;
+}
+@media screen and (min-width: 768px) {
+  .banner img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
 /* End Banner */
 /* Slider */
 .test {
@@ -650,14 +660,13 @@ h6 {
 /* End Post */
 .follow-detail {
   margin-top: 1rem;
-  padding: 0 1rem;
-  line-height: 2rem;
+  line-height: 1rem;
   background-color: var(--mainGrey);
   cursor: pointer;
 }
 .follow-detail span {
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 0.45rem;
   letter-spacing: var(--sideSpacing);
 }
 .follow-icon {
@@ -690,4 +699,25 @@ h6 {
 .hover4:hover svg {
   background-color: #0077b5;
   color: var(--mainWhite);
+}
+@media screen and (min-width: 500px) {
+  .follow-detail {
+    margin-top: 1rem;
+    padding: 0 1rem;
+    line-height: 2rem;
+    background-color: var(--mainGrey);
+    cursor: pointer;
+  }
+  .follow-detail span {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: var(--sideSpacing);
+  }
+  .follow-icon {
+    color: var(--mainBlack);
+    font-size: 0.9rem;
+    margin: 0.5rem;
+    display: flex;
+    float: right;
+  }
 }
